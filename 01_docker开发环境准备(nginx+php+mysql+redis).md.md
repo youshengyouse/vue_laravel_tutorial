@@ -67,3 +67,14 @@ https://127.0.0.1    # 443 端口
 #### 填坑
 
 `ERROR: Pool overlaps with other one on this address space`，原因是已有一个网络占用了subnet网段地址，`docker network ls`，查看，删除除了 `bridge`，`host `，`none`之外的网络
+
+
+
+## git
+
+```bash
+$ git checkout 01_docker开发环境
+$ git push gitee 01_docker开发环境
+$ git push github 01_docker开发环境
+```
+
