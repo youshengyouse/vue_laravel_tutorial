@@ -16,7 +16,7 @@ git push -u gitee master
 git remote add github git@github.com:youshengyouse/vue_laravel_tutorial.git
 git push -u github master
 
-# git branch -b 01_docker开发环境，相当于创建并切换，也就是相当上面两句
+# git checkout -b 01_docker开发环境，相当于创建并切换，也就是相当上面两句
 $ git branch 01_docker开发环境     # 创建 01_docker开发环境 分支 
 $ git branch 02_后端开发环境
 $ git branch 03_前端开发环境 
