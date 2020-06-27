@@ -29,7 +29,7 @@ $ git branch 08_用户注册_后端部分
 $ git checkout 01_docker开发环境   # 切换到 01_docker开发环境 分支
 $ git add .
 $ git commit -m 'dnmp初始状态‘
-
+$ git push --set-upstream gitee 01_docker开发环境
 
 
 git push -u gitee 01_docker开发环境
